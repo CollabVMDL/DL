@@ -5,42 +5,38 @@
 <style>
 body {
   font-family: "Lato", sans-serif;
-  height: 500px;
+  height: 450px;
 }
 
 .sidenav {
-  height: 100%;
-  width: 110px;
+  width: 103px;
   position: fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
+  top: 20px;
+  left: 10px;
+  background: #eee;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding: 8px 0;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 15px;
-  color: #818181;
+  font-size: 20px;
+  color: #2196F3;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #064579;
 }
 
 .main {
-  margin-left: 117px; /* Same as the width of the sidenav */
+  margin-left: 125px; /* Same as the width of the sidenav */
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-@media screen and (max-width: 450px) {
+  .sidenav {xpadding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 
@@ -50,9 +46,7 @@ body {
 
 <div class="sidenav">
  <a href="https://collabvmdl.desktopgoose.repl.co/">Home</a>
-  <a href="/isos.html">ISOs</a>
   <a href="/software.html">Software</a>
-  <a href="/jokeprograms.html">Joke Programs</a>
   <a href="/other.html">Other</a>
 </div>
 

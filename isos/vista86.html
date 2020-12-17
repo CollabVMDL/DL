@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  height: 450px;
+}
+
+.sidenav {
+  width: 103px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.main {
+  margin-left: 125px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {xpadding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+ <a href="https://collabvmdl.desktopgoose.repl.co/">Home</a>
+  <a href="/software.html">Software</a>
+  <a href="/other.html">Other</a>
+</div>
+
+<div class="main" id="home">
+  <h2>Vista Home Premium x86</h2>
+  <p>Windows Vista is an operating system produced by Microsoft as a member of the Windows NT family of operating systems for use on personal computers.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/en/a/a3/Windows_Vista.png">
+  <p>Download size: 2.5 GB</p>
+  <a href="https://archive.org/download/Windows_Vista_Home_Premium_32-Bit_Software_Only_X12-24164-02_Microsoft_Corporati/Windows%20Vista%20Home%20Premium%20%2832-Bit%20Software%20Only%29%28X12-24164-02%29%28Microsoft%20Corporation%29%282007%29.iso">
+  <img src="https://files.catbox.moe/0xp5dw.png" alt="Download" width="167" height="59">
+</a>
+</div>
+
+<div style="display" id="isos">
+</div>
+</body>
+</html> 
