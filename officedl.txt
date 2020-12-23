@@ -1,0 +1,47 @@
+@echo off
+title Office Downloader
+echo.
+echo Welcome to the Office Downloader!
+echo This tool will download an Office ISO for you.
+echo !!! PLEASE NOTE THIS TOOL REQUIRES BITSADMIN TO FUNCTION !!!
+echo Please select a version below:
+echo.
+echo Office 2003
+echo Office 2007
+echo Office 2010
+echo Office 2013
+echo.
+set /p office=Option: 
+if %office%==unknown goto unknown
+if %office%==2003 goto o2003
+if %office%==2007 goto o2007
+if %office%==2010 goto o2010
+if %office%==2013 goto o2013
+
+:unknown
+msg * That wasn't an option, please relaunch the program and try again (Options: 2003, 2007, 2010, 2013)
+exit
+
+:o2003
+echo Downloading Office 2003
+echo File will be saved to your desktop.
+bitsadmin.exe /transfer "03" https://archive.org/download/en_office_2003_pro_201910/en_office_2003_pro.iso C:\Users\%username%\Desktop\office2003.iso
+msg * Process has finished (or aborted due to an error)
+
+:o2007
+echo Downloading Office 2007
+echo File will be saved to your desktop.
+bitsadmin.exe /transfer "07" https://archive.org/download/en_office_enterprise_2007_dvd_vl_x12-19574/en_office_enterprise_2007_dvd_vl_x12-19574.iso C:\Users\%username%\Desktop\office2007.iso
+msg * Process has finished (or aborted due to an error)
+
+:o2010
+echo Downloading Office 2010
+echo File will be saved to your desktop.
+bitsadmin.exe /transfer "10" https://archive.org/download/Office2010ProPlus32Bit/14.0.4734.1000_ProfessionalPlus_volume_x86_en-us.iso C:\Users\%username%\Desktop\office2010.iso
+msg * Process has finished (or aborted due to an error)
+
+:o2013
+echo Downloading Office 2013
+echo File will be saved to your desktop.
+bitsadmin.exe /transfer "13" https://archive.org/download/en_office_professional_plus_2013_with_sp1_x86_and_x64_dvd_3928186_202011/en_office_professional_plus_2013_with_sp1_x86_and_x64_dvd_3928186.iso C:\Users\%username%\Desktop\office2013.iso
+msg * Process has finished (or aborted due to an error)

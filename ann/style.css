@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+	font-family: ubuntu;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: white;
+}
+
+header img {
+  width: 50px;
+  background: white;
+  border-radius: 5px;
+  margin: 0 20px 0 40px;
+}
+
+article {
+  background: white;
+  border: 5px solid black;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+hr, article .date {
+  color: #a0a0a0;
+}
+
+article .m {
+  color: grey;
+  font-family: Sans-Serif;
+}
