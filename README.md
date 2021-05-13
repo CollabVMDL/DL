@@ -6,10 +6,6 @@ If you make a issue / PR it wont be answered. dont waste your time.
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
 ![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
 ![](https://forthebadge.com/images/badges/open-source.svg)
-# CollabVM Downloads
-Hello! I am Diary / Annuals, a Head Developer of CollabVM Download Center.
-I have made this repository open-source for everyone who wants to see the messy html that isnt correctly in folders.
-I hope everyone enjoys!
 
 ## What this includes
 - The whole **entire** frontend of CollabVM Download Center
